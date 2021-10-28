@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @clase.title %>
+</p>
+
+<p>
+  <strong>Video link:</strong>
+  <%= @clase.video_link %>
+</p>
+
+<p>
+  <strong>Text transcription:</strong>
+  <%= @clase.text_transcription %>
+</p>
+
+<%= link_to 'Edit', edit_clase_path(@clase) %> |
+<%= link_to 'Back', clases_path %>
